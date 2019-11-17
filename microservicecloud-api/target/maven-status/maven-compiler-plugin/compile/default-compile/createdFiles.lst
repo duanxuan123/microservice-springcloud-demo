@@ -1,0 +1,5 @@
+com\duan\springcloud\service\DeptClientServiceFallbackFactory.class
+com\duan\springcloud\entities\Dept.class
+com\duan\springcloud\utils\DelFileEndWithLasted.class
+com\duan\springcloud\service\DeptClientService.class
+com\duan\springcloud\service\DeptClientServiceFallbackFactory$1.class

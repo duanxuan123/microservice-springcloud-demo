@@ -1,0 +1,14 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: microservicecloud-80
+eureka:
+  instance:
+    prefer-ip-address: true #访问路径是否显示ip
+    instance-id: microservicecloud-80
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/    
